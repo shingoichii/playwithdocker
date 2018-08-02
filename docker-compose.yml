@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  user_sshd_00:
+    image: user_sshd
+    ports: 
+      - "20022:22"
+      - "20011:4011"      
+
+  user_sshd_01:
+    image: user_sshd
+    ports: 
+      - "20122:22"
+
+  user_sshd_02:
+    image: user_sshd
+    ports: 
+      - "20222:22"
