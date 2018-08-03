@@ -1,8 +1,10 @@
-FROM ubuntu:18.04
+#FROM ubuntu:18.04
+FROM ubuntu:18.04full
 
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
-RUN useradd -m -s /bin/bash ksuser
+RUN addgroup admin
+RUN useradd -m --group admin -s /bin/bash ksuser
 RUN echo 'ksuser:screencast' | chpasswd
 #RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 

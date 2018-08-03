@@ -2,17 +2,241 @@ version: '3'
 
 services:
   user_sshd_00:
-    image: user_sshd
-    ports: 
+    image: ubuntu:fullsshd
+    ports:
       - "20022:22"
-      - "20011:4011"      
+      - "20011:4011"
 
   user_sshd_01:
-    image: user_sshd
-    ports: 
+    image: ubuntu:fullsshd
+    ports:
       - "20122:22"
+      - "20111:4011"
 
   user_sshd_02:
-    image: user_sshd
-    ports: 
+    image: ubuntu:fullsshd
+    ports:
       - "20222:22"
+      - "20211:4011"
+
+  user_sshd_03:
+    image: ubuntu:fullsshd
+    ports:
+      - "20322:22"
+      - "20311:4011"
+
+  user_sshd_04:
+    image: ubuntu:fullsshd
+    ports:
+      - "20422:22"
+      - "20411:4011"
+
+  user_sshd_05:
+    image: ubuntu:fullsshd
+    ports:
+      - "20522:22"
+      - "20511:4011"
+
+  user_sshd_06:
+    image: ubuntu:fullsshd
+    ports:
+      - "20622:22"
+      - "20611:4011"
+
+  user_sshd_07:
+    image: ubuntu:fullsshd
+    ports:
+      - "20722:22"
+      - "20711:4011"
+
+  user_sshd_08:
+    image: ubuntu:fullsshd
+    ports:
+      - "20822:22"
+      - "20811:4011"
+
+  user_sshd_09:
+    image: ubuntu:fullsshd
+    ports:
+      - "20922:22"
+      - "20911:4011"
+
+  user_sshd_10:
+    image: ubuntu:fullsshd
+    ports:
+      - "21022:22"
+      - "21011:4011"
+
+  user_sshd_11:
+    image: ubuntu:fullsshd
+    ports:
+      - "21122:22"
+      - "21111:4011"
+
+  user_sshd_12:
+    image: ubuntu:fullsshd
+    ports:
+      - "21222:22"
+      - "21211:4011"
+
+  user_sshd_13:
+    image: ubuntu:fullsshd
+    ports:
+      - "21322:22"
+      - "21311:4011"
+
+  user_sshd_14:
+    image: ubuntu:fullsshd
+    ports:
+      - "21422:22"
+      - "21411:4011"
+
+  user_sshd_15:
+    image: ubuntu:fullsshd
+    ports:
+      - "21522:22"
+      - "21511:4011"
+
+  user_sshd_16:
+    image: ubuntu:fullsshd
+    ports:
+      - "21622:22"
+      - "21611:4011"
+
+  user_sshd_17:
+    image: ubuntu:fullsshd
+    ports:
+      - "21722:22"
+      - "21711:4011"
+
+  user_sshd_18:
+    image: ubuntu:fullsshd
+    ports:
+      - "21822:22"
+      - "21811:4011"
+
+  user_sshd_19:
+    image: ubuntu:fullsshd
+    ports:
+      - "21922:22"
+      - "21911:4011"
+
+  user_sshd_20:
+    image: ubuntu:fullsshd
+    ports:
+      - "22022:22"
+      - "22011:4011"
+
+  user_sshd_21:
+    image: ubuntu:fullsshd
+    ports:
+      - "22122:22"
+      - "22111:4011"
+
+  user_sshd_22:
+    image: ubuntu:fullsshd
+    ports:
+      - "22222:22"
+      - "22211:4011"
+
+  user_sshd_23:
+    image: ubuntu:fullsshd
+    ports:
+      - "22322:22"
+      - "22311:4011"
+
+  user_sshd_24:
+    image: ubuntu:fullsshd
+    ports:
+      - "22422:22"
+      - "22411:4011"
+
+  user_sshd_25:
+    image: ubuntu:fullsshd
+    ports:
+      - "22522:22"
+      - "22511:4011"
+
+  user_sshd_26:
+    image: ubuntu:fullsshd
+    ports:
+      - "22622:22"
+      - "22611:4011"
+
+  user_sshd_27:
+    image: ubuntu:fullsshd
+    ports:
+      - "22722:22"
+      - "22711:4011"
+
+  user_sshd_28:
+    image: ubuntu:fullsshd
+    ports:
+      - "22822:22"
+      - "22811:4011"
+
+  user_sshd_29:
+    image: ubuntu:fullsshd
+    ports:
+      - "22922:22"
+      - "22911:4011"
+
+  user_sshd_30:
+    image: ubuntu:fullsshd
+    ports:
+      - "23022:22"
+      - "23011:4011"
+
+  user_sshd_31:
+    image: ubuntu:fullsshd
+    ports:
+      - "23122:22"
+      - "23111:4011"
+
+  user_sshd_32:
+    image: ubuntu:fullsshd
+    ports:
+      - "23222:22"
+      - "23211:4011"
+
+  user_sshd_33:
+    image: ubuntu:fullsshd
+    ports:
+      - "23322:22"
+      - "23311:4011"
+
+  user_sshd_34:
+    image: ubuntu:fullsshd
+    ports:
+      - "23422:22"
+      - "23411:4011"
+
+  user_sshd_35:
+    image: ubuntu:fullsshd
+    ports:
+      - "23522:22"
+      - "23511:4011"
+
+  user_sshd_36:
+    image: ubuntu:fullsshd
+    ports:
+      - "23622:22"
+      - "23611:4011"
+
+  user_sshd_37:
+    image: ubuntu:fullsshd
+    ports:
+      - "23722:22"
+      - "23711:4011"
+
+  user_sshd_38:
+    image: ubuntu:fullsshd
+    ports:
+      - "23822:22"
+      - "23811:4011"
+
+  user_sshd_39:
+    image: ubuntu:fullsshd
+    ports:
+      - "23922:22"
+      - "23911:4011"
