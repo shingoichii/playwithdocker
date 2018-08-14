@@ -6,237 +6,357 @@ services:
     ports:
       - "20022:22"
       - "20011:4011"
+    environment:
+      - NEWUSERNAME=ksuser00
+      - NEWPASSWORD==POp5'fqOZ
 
   user_sshd_01:
     image: baseimage:adduser
     ports:
       - "20122:22"
       - "20111:4011"
+    environment:
+      - NEWUSERNAME=ksuser01
+      - NEWPASSWORD=L#?IRc.=Jw
 
   user_sshd_02:
     image: baseimage:adduser
     ports:
       - "20222:22"
       - "20211:4011"
+    environment:
+      - NEWUSERNAME=ksuser02
+      - NEWPASSWORD=ewauRzp]TZ
 
   user_sshd_03:
     image: baseimage:adduser
     ports:
       - "20322:22"
       - "20311:4011"
+    environment:
+      - NEWUSERNAME=ksuser03
+      - NEWPASSWORD=iX8>oRT]xe
 
   user_sshd_04:
     image: baseimage:adduser
     ports:
       - "20422:22"
       - "20411:4011"
+    environment:
+      - NEWUSERNAME=ksuser04
+      - NEWPASSWORD=;Abk[=m:';
 
   user_sshd_05:
     image: baseimage:adduser
     ports:
       - "20522:22"
       - "20511:4011"
+    environment:
+      - NEWUSERNAME=ksuser05
+      - NEWPASSWORD=iL8zj%9~~m
 
   user_sshd_06:
     image: baseimage:adduser
     ports:
       - "20622:22"
       - "20611:4011"
+    environment:
+      - NEWUSERNAME=ksuser06
+      - NEWPASSWORD=3uamsJVqxZ
 
   user_sshd_07:
     image: baseimage:adduser
     ports:
       - "20722:22"
       - "20711:4011"
+    environment:
+      - NEWUSERNAME=ksuser07
+      - NEWPASSWORD=Z8LDICtrhY
 
   user_sshd_08:
     image: baseimage:adduser
     ports:
       - "20822:22"
       - "20811:4011"
+    environment:
+      - NEWUSERNAME=ksuser08
+      - NEWPASSWORD=c?xmYvoXOG
 
   user_sshd_09:
     image: baseimage:adduser
     ports:
       - "20922:22"
       - "20911:4011"
+    environment:
+      - NEWUSERNAME=ksuser09
+      - NEWPASSWORD=kJM!eD0dvk
 
   user_sshd_10:
     image: baseimage:adduser
     ports:
       - "21022:22"
       - "21011:4011"
+    environment:
+      - NEWUSERNAME=ksuser10
+      - NEWPASSWORD=~(a,&Vc6gp
 
   user_sshd_11:
     image: baseimage:adduser
     ports:
       - "21122:22"
       - "21111:4011"
+    environment:
+      - NEWUSERNAME=ksuser11
+      - NEWPASSWORD=<_R.maBZ'=
 
   user_sshd_12:
     image: baseimage:adduser
     ports:
       - "21222:22"
       - "21211:4011"
+    environment:
+      - NEWUSERNAME=ksuser12
+      - NEWPASSWORD=caSIq[z4'9
 
   user_sshd_13:
     image: baseimage:adduser
     ports:
       - "21322:22"
       - "21311:4011"
+    environment:
+      - NEWUSERNAME=ksuser13
+      - NEWPASSWORD=KKkSiLnRbv
 
   user_sshd_14:
     image: baseimage:adduser
     ports:
       - "21422:22"
       - "21411:4011"
+    environment:
+      - NEWUSERNAME=ksuser14
+      - NEWPASSWORD=^S9gZ`pGq~
 
   user_sshd_15:
     image: baseimage:adduser
     ports:
       - "21522:22"
       - "21511:4011"
+    environment:
+      - NEWUSERNAME=ksuser15
+      - NEWPASSWORD=owQpc!VjQ`
 
   user_sshd_16:
     image: baseimage:adduser
     ports:
       - "21622:22"
       - "21611:4011"
+    environment:
+      - NEWUSERNAME=ksuser16
+      - NEWPASSWORD=a73sYV*;nM
 
   user_sshd_17:
     image: baseimage:adduser
     ports:
       - "21722:22"
       - "21711:4011"
+    environment:
+      - NEWUSERNAME=ksuser17
+      - NEWPASSWORD=OPKA-%~V&#
 
   user_sshd_18:
     image: baseimage:adduser
     ports:
       - "21822:22"
       - "21811:4011"
+    environment:
+      - NEWUSERNAME=ksuser18
+      - NEWPASSWORD=c=`Xv2W+D*
 
   user_sshd_19:
     image: baseimage:adduser
     ports:
       - "21922:22"
       - "21911:4011"
+    environment:
+      - NEWUSERNAME=ksuser19
+      - NEWPASSWORD=Q0Wu#iAGkz
 
   user_sshd_20:
     image: baseimage:adduser
     ports:
       - "22022:22"
       - "22011:4011"
+    environment:
+      - NEWUSERNAME=ksuser20
+      - NEWPASSWORD=MzmiQ&e`RH
 
   user_sshd_21:
     image: baseimage:adduser
     ports:
       - "22122:22"
       - "22111:4011"
+    environment:
+      - NEWUSERNAME=ksuser21
+      - NEWPASSWORD=D@a__gqL=g
 
   user_sshd_22:
     image: baseimage:adduser
     ports:
       - "22222:22"
       - "22211:4011"
+    environment:
+      - NEWUSERNAME=ksuser22
+      - NEWPASSWORD=f>?Oki`zQf
 
   user_sshd_23:
     image: baseimage:adduser
     ports:
       - "22322:22"
       - "22311:4011"
+    environment:
+      - NEWUSERNAME=ksuser23
+      - NEWPASSWORD=~\JigLmBjT
 
   user_sshd_24:
     image: baseimage:adduser
     ports:
       - "22422:22"
       - "22411:4011"
+    environment:
+      - NEWUSERNAME=ksuser24
+      - NEWPASSWORD=mQV,fj(NqV
 
   user_sshd_25:
     image: baseimage:adduser
     ports:
       - "22522:22"
       - "22511:4011"
+    environment:
+      - NEWUSERNAME=ksuser25
+      - NEWPASSWORD=a]KAepTLL;
 
   user_sshd_26:
     image: baseimage:adduser
     ports:
       - "22622:22"
       - "22611:4011"
+    environment:
+      - NEWUSERNAME=ksuser26
+      - NEWPASSWORD=qGmZ(4OcX5
 
   user_sshd_27:
     image: baseimage:adduser
     ports:
       - "22722:22"
       - "22711:4011"
+    environment:
+      - NEWUSERNAME=ksuser27
+      - NEWPASSWORD=8C.Nj]3{[J
 
   user_sshd_28:
     image: baseimage:adduser
     ports:
       - "22822:22"
       - "22811:4011"
+    environment:
+      - NEWUSERNAME=ksuser28
+      - NEWPASSWORD={ofw6NMQCM
 
   user_sshd_29:
     image: baseimage:adduser
     ports:
       - "22922:22"
       - "22911:4011"
+    environment:
+      - NEWUSERNAME=ksuser29
+      - NEWPASSWORD=ETq;d9ZkZy
 
   user_sshd_30:
     image: baseimage:adduser
     ports:
       - "23022:22"
       - "23011:4011"
+    environment:
+      - NEWUSERNAME=ksuser30
+      - NEWPASSWORD=#0~VMWL-sC
 
   user_sshd_31:
     image: baseimage:adduser
     ports:
       - "23122:22"
       - "23111:4011"
+    environment:
+      - NEWUSERNAME=ksuser31
+      - NEWPASSWORD=Rrok&x%3WH
 
   user_sshd_32:
     image: baseimage:adduser
     ports:
       - "23222:22"
       - "23211:4011"
+    environment:
+      - NEWUSERNAME=ksuser32
+      - NEWPASSWORD=t9VkLPucya
 
   user_sshd_33:
     image: baseimage:adduser
     ports:
       - "23322:22"
       - "23311:4011"
+    environment:
+      - NEWUSERNAME=ksuser33
+      - NEWPASSWORD=dqLW=b>Ok}
 
   user_sshd_34:
     image: baseimage:adduser
     ports:
       - "23422:22"
       - "23411:4011"
+    environment:
+      - NEWUSERNAME=ksuser34
+      - NEWPASSWORD=w,6c"zoDSA
 
   user_sshd_35:
     image: baseimage:adduser
     ports:
       - "23522:22"
       - "23511:4011"
+    environment:
+      - NEWUSERNAME=ksuser35
+      - NEWPASSWORD=hrvRKeHyq~
 
   user_sshd_36:
     image: baseimage:adduser
     ports:
       - "23622:22"
       - "23611:4011"
+    environment:
+      - NEWUSERNAME=ksuser36
+      - NEWPASSWORD=d8?MeQw+8W
 
   user_sshd_37:
     image: baseimage:adduser
     ports:
       - "23722:22"
       - "23711:4011"
+    environment:
+      - NEWUSERNAME=ksuser37
+      - NEWPASSWORD=nN+nd5]EZ<
 
   user_sshd_38:
     image: baseimage:adduser
     ports:
       - "23822:22"
       - "23811:4011"
+    environment:
+      - NEWUSERNAME=ksuser38
+      - NEWPASSWORD=UFjmTv\Q8Y
 
   user_sshd_39:
     image: baseimage:adduser
     ports:
       - "23922:22"
       - "23911:4011"
+    environment:
+      - NEWUSERNAME=ksuser39
+      - NEWPASSWORD=tcD,MLgMJD
