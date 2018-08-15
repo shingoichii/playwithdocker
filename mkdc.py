@@ -4,6 +4,8 @@ service_name_prefix = "user_sshd_"
 #image_name = "ubuntu:fullsshd"
 image_name = "baseimage:adduser"
 
+prefix = "/home/prj/"
+
 import sys
 import random
 import string
@@ -27,6 +29,7 @@ alphabets = string.ascii_letters + string.digits + string.punctuation + string.a
 alphabets = alphabets.replace ('1', '0')
 alphabets = alphabets.replace ('l', 'L')
 alphabets = alphabets.replace ('$', '%')
+alphabets = alphabets.replace (':', ';')
 
 for i in range (n):
     word = ""
@@ -68,9 +71,12 @@ for i in range (n):
     print ("    image: {}".format (image_name))
     print ("    ports:")
     print ("      - \"2{:02}22:22\"".format (i))
+    print ("      - \"2{:02}80:80\"".format (i))
     print ("      - \"2{:02}11:4011\"".format (i))
     print ("    environment:")
     print ("      - NEWUSERNAME=ksuser{:02}".format (i))
     print ("      - NEWPASSWORD={}".format (passwords [i]))
+    print ("    volumes:")
+    print ("      - {}{:02}:/home".format (prefix, i))
     if i < n - 1:
         print ("")
